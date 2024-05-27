@@ -1,0 +1,12 @@
+# Node.js modules
+node_modules/
+package-lock.json
+
+# Babel configuration
+babel.config.js
+
+# ESLint configuration
+.eslintrc.js
+
+# Package file
+package.json
