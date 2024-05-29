@@ -33,6 +33,33 @@
 
 
 
-console.log("one");
-window.alert("error");
-console.log("two");
+// console.log("one");
+// window.alert("error");
+// console.log("two");
+
+
+
+let myPromes = new Promise((resolve, reject) => {
+
+    let connect = true;
+
+    if (connect) {
+        resolve("connected")
+    }
+    else (
+        reject("disconnected")
+    )
+    
+    
+}).then(
+    (resolved) => console.log(resolved),
+    (rejected) => console.log(rejected)
+)
+
+//console.log(typeof(myPromes))
+
+
+// const theResloved = (resolved) => console.log(resolved)
+// const theRejected = (rejected) => console.log(rejected)
+
+// myPromes.then(theResloved, theRejected);
