@@ -1,0 +1,11 @@
+# Ignore package files
+package-lock.json
+
+# Ignore babel config file
+babel.config.js
+
+# Ignore utils file
+utils.js
+
+# Ignore node_modules folder
+node_modules/
