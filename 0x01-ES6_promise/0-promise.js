@@ -3,7 +3,3 @@ function getResponseFromAPI() {
         resolve("Response from API");
     });
 }
-
-
-const response = getResponseFromAPI();
-console.log(response instanceof Promise);
